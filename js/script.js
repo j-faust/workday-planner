@@ -23,16 +23,18 @@ function reloadToCalendar() {
     let eventText = [];
     let text = localStorage.getItem("eventText");
 
-    // if statement to check if there is text in localStorage to before loading to the calendar 
+    // if statement to check if there is text in localStorage before loading to the calendar 
     if(text !== undefined && text !== null && text !== ""){
     eventText = JSON.parse(text);
     for(let i = 0; i <= 9; i++) {
-        eventText.push($('#calendarTextarea' + i.toString()).value);
-        }
+        $('#calendarTextarea' + i.toString())[0].value = eventText[i];
+        } 
     }
 }
 
+// Load any items on 
 window.onload = reloadToCalendar();
+
 
 // event listener for cick to save text entered to calendar
 $('Button.saveBtn').click(saveToCalendar);
