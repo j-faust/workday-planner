@@ -1,2 +1,3 @@
-var time = moment().format('dddd, Do MMM YYYY, h:mm:ssx');
-$("#currentDay").text(time);
+// Display current date and time on Jumbotron on the mainpage
+var date = new Date();
+document.getElementById("currentDay").innerHTML = date;
