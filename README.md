@@ -17,6 +17,10 @@ The purpose of this project is to allow an employee with a busy schedule to add 
 
 * Created function to save the texted entered to the calendar utilizing the user's localstorage.
 
+    * Used 'for loop' within this function to loop through calendar text and save new information added to localStorage. 
+
+    * 'JSON.stringify' used to take information and store to the user's localStorage
+
 * Created function to reload the saved user's calendar events from localStorage on page load for the user. 
 
     * Use 'if statement' and 'for loop' within this function to loop through the array and also change the textarea display color based on the current hour of the day and the displayed time on the calendar.
