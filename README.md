@@ -33,7 +33,7 @@ The purpose of this project is to allow an employee with a busy schedule to add 
 
 [GitHub](https://github.com/j-faust/workday-planner)
 
-[Workday Scheduler Website](j-faust.github.io/workday-planner)
+[Workday Scheduler Website](https://j-faust.github.io/workday-planner)
 
 ## Screenshots
 
